@@ -19,42 +19,6 @@
 - that sounds good
 - correct
 
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
-
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
-
 ## intent:ask_medical_attention
 
 - When to [Seek Medical Attention](seek_attention)
@@ -142,8 +106,17 @@
 ## intent: ask_precautions
 - Why should we wear [masks](precaution)?
 - Are masks compulsory? 
+- how to make a [mask](precaution)
 - How should I [wash](precaution) my hands?
 - Steps to wash hands effectively
+- why to was hands with sanitizer
+- how to [prevent](precaution) corona from affecting us
+- what [precautions](precaution) to be taken
+- what [measures](precaution) to be taken
+- what [precaution](precaution) to be taken
+- how long should we wash our hands
+- importance of sanitizer or [soap](precaution)
+- is [sanitizer](precaution) required
 
 ## intent: symptoms
 - What are the major [symptoms](symptoms) of coronavirus?
@@ -175,3 +148,11 @@
 - Can I go out [shopping](outside)?
 - Can I go out to buy vegetables?
 
+## intent: out_of_scope
+
+- fggsf dnek ofjkfn
+- I am hungry
+- where are we going
+- tell me a joke
+- i want to book a restaurant
+- jfhr qsaasr fvndveti

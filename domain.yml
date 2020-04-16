@@ -1,0 +1,75 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_medical_attention
+  - ask_medicines
+  - ask_corona
+  - more_risk_people
+  - spread_medium
+  - ask_precautions
+  - symptoms
+  - outdoor_activites
+
+entities:
+  - seek_attention
+  - seek_medicines
+  - covid
+  - more_risk
+  - spread_type
+  - precaution
+  - symptoms
+  - outside
+
+templates:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_medical_attention:
+  - text: "If you develop any of these emergency warning signs for COVID-19 get medical attention immediately trouble breathing, Persistent pain or pressure in the chest, New confusion or inability to arouse, Bluish lips or face"
+
+  utter_seek_medicines:
+  - text: "While some western, traditional or home remedies may provide comfort and alleviate symptoms of COVID-19, there is no evidence that current  medicine can prevent or cure the disease. We do not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19. However, there are several ongoing clinical trials that include both western and traditional medicines. We will continue to provide updated information as soon as clinical findings are available.Antibiotics do not work against viruses, they only work on bacterial   infections. COVID-19 is caused by a virus, so antibiotics do not work."
+  utter_corona:
+  - text: "Coronaviruses are a family of viruses that cause infection in humans and various animals, including birds and mammals such as camels, cats and bats. Some animal coronaviruses are zoonotic, meaning they are communicable from animals to humans. To date, it has been confirmed that seven coronaviruses can also cause infection in humans. When animal coronaviruses evolve, infect humans and spread between humans, this can lead to outbreaks such as MERS-CoV and SARS"
+  utter_risk:
+  - text: "People over 65 years of age, people with diabetes, people with heart disease, lung or kidney disease and people whose immune system is weakened. There is no scientific evidence that pregnant women are more vulnerable to this infection or to its consequences. Children may also become infected with the coronavirus, but they run little risk of becoming very ill. However, they can easily transmit the virus, even if they have no symptoms yet. We, therefore, advise avoiding contact between children and risk groups, such as their grandparents"
+
+  utter_spread_medium:
+  - text: “The coronavirus spreads from human to human via small droplets that are released when coughing and sneezing. Via these droplets, the virus ends up in the air, on objects and surfaces. Whoever inhales these droplets or gets them through their hands into their mouth, nose or eyes can become infected with the virus. In ideal conditions, the coronavirus survives on average around three hours on smooth surfaces and materials (such as door handles, handrails, tables, etc.). The virus is very sensitive to dehydration, heat and sunlight.To this day, food has not been identified as a probable source or route of transmission of the virus. In addition, coronaviruses are not highly resistant to viruses in the environment and are rapidly inactivated when they end up on surfaces. In the current state of knowledge, the likelihood of a consumer becoming contaminated with COVID-19 through food is therefore very low and unproven.”
+
+  utter_precaution:
+  - text: "Wash your hands, preferably with warm or lukewarm running water and liquid soap. If you are on the road and cannot wash your hands, touch your face as little as possible and wash your hands on arrival. If you don’t have water, soap and a towel nearby and still want to wash your hands, you can use alcohol gel. Wear a mask before you step outside."
+
+  utter_symptoms:
+  - text: "If you feel sick, have a cough, a sore throat, breathing difficulties, and have a fever of more than 38 degrees, the coronavirus is one of the viruses you may have contracted. Moreover, if you have recently travelled to one of the countries that have been severely affected by the coronavirus, such as China or Italy, or if you have been in contact with people who have been infected or who have travelled there, you need to be even more vigilant. We suggest to consult a doctor if the above symptoms are shown."
+
+  utter_outside: 
+  - text: "You’re expected to stay home as much as possible. You’re only allowed to come out if necessary for the following things. Going to work, Making a trip in the context of your work, Going to an authorized store, Going to the ATM or the post office, Going to the doctor, Providing assistance to vulnerable people (minors, elderly, disabled or other vulnerable persons)"
+
+
+
+
+
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_seek_medicines
+ - utter_corona
+ - utter_risk
+ - utter_spread_medium
+ - utter_precaution
+ - utter_symptoms
+ - utter_outside
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
